@@ -10,5 +10,4 @@ class LikedItem(models.Model):
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey()
 
-    
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  
